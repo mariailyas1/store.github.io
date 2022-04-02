@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+       .main{
+           background-color: lavender;
+           box-shadow: 2px 4px 5px gray;
+           
+           width:400px;
+           margin-top: 100px;
+           margin-left: 50px;
+           padding-left: 20px;
+          
+  background-image: linear-gradient(red, yellow, green);
+
+       }
+    .pic{
+        padding-top:30px;
+        padding-left: 130px;
+        padding-bottom: 10px;
+    }
+    .inp{
+      
+       margin: 0 auto;
+    padding-left: 100px;
+    padding-bottom: 0px;
+    }
+    .btn{
+        width:50%;
+        padding-left: 20px;
+        margin: 10px auto;
+        background-color: blue;
+        color:white;
+    }
+    .anker{
+        padding-left: 200px;
+        
+    }
+    input:hover{
+        background-color: aqua;
+    }
+  @media screen and (width:600px) {
+      .main{
+          width:400px;
+      }
+      
+
+  }
+  .stay{
+      color: white;
+  }
+    </style>
+</head>
+<body>
+    <div class="over">
+
+    <div class="main">
+
+        <form action="response.html">
+            
+            <img class="pic" src="http://assets.stickpng.com/images/585e4bf3cb11b227491c339a.png" height="100px" width="100px" alt="Log in">
+        <br>
+                
+         
+          <input class="inp" type="email" name="email" id="email"  placeholder="Email" required>
+<br>
+<br>
+           
+            <input class="inp" type="password" name="pass" id="pass" placeholder="Password" required>
+
+ <br/>
+ <br/>
+
+          <input class="btn" type="submit" value="Sign in"> <br> <br>
+
+          <input type="checkbox" name="check" id="check" class="stay">Stay Signed in 
+          <a class="anker" href="#">Need help?</a>
+           
+        </form>
+    </div>
+</div>
+</body>
+</html>
